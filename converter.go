@@ -13,3 +13,13 @@ func Unmarshal(data []byte, v interface{}) error {
 func Marshal(v interface{}) ([]byte, error) {
 	return json.Marshal(v)
 }
+
+// Decoder ...
+type Decoder struct {
+	json.Decoder
+}
+
+// Encoder ...
+type Encoder struct {
+	json.Encoder
+}
