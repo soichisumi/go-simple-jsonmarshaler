@@ -7,28 +7,6 @@ import (
 	"github.com/google/go-cmp/cmp"
 )
 
-//func TestMarshal(t *testing.T) {
-//	b, err := Marshal(allValue)
-//	if err != nil {
-//		t.Fatalf("Marshal allValue: %v", err)
-//	}
-//	if string(b) != allValueCompact {
-//		t.Errorf("Marshal allValueCompact")
-//		diff(t, b, []byte(allValueCompact))
-//		return
-//	}
-//
-//	b, err = Marshal(pallValue)
-//	if err != nil {
-//		t.Fatalf("Marshal pallValue: %v", err)
-//	}
-//	if string(b) != pallValueCompact {
-//		t.Errorf("Marshal pallValueCompact")
-//		diff(t, b, []byte(pallValueCompact))
-//		return
-//	}
-//}
-
 type InnerStruct struct {
 	Tag string
 }
