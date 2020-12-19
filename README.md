@@ -1,6 +1,6 @@
 # go-simple-jsonmarshaler
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/soichisumi/go-simple-jsonmarshaler)](https://goreportcard.com/report/github.com/soichisumi/go-simple-jsonmarshaler) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Test](https://github.com/soichisumi/go-simple-jsonmarshaler/workflows/Test/badge.svg) [![Go Report Card](https://goreportcard.com/badge/github.com/soichisumi/go-simple-jsonmarshaler)](https://goreportcard.com/report/github.com/soichisumi/go-simple-jsonmarshaler) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A library that provides json.Marshal/Unmarshal/Encoder/Decoder that do not base64 encode []byte fields
 
